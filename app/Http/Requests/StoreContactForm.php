@@ -32,7 +32,7 @@ class StoreContactForm extends FormRequest
             'gender' => 'required',
             'age' => 'required',
             'contact' => 'required|string|max:200',
-            'causion' => 'required|accepted',
+            'caution' => 'required|accepted',
         ];
     }
 }
